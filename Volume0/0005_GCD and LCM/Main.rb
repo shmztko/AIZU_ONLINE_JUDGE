@@ -18,7 +18,6 @@ if __FILE__ == $0
     n = m == args[0] ? args[1] : args[0]
  
     calcurator = EuclideanAlgorithmCalcurator.new
-    # 最大公約数
     puts "#{calcurator.get_gcd(m, n)} #{calcurator.get_lcd(m, n)}"
   end
 end
