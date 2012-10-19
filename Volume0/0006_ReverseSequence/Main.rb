@@ -1,7 +1,7 @@
 #coding: UTF-8
 if __FILE__ == $0
-  arg = gets.to_s
-  puts arg.reverse
+  while line = gets
+    s = line.split(" ")[0]
+    puts s.reverse   
+  end
 end
-
-
