@@ -6,10 +6,8 @@ if __FILE__ == $0
 
     total_debt = initial_debt;
     weeks.times{|week|
-      total_debt += total_debt * 0.05 
-      #puts (total_debt / 1000).ceil * 1000
+      total_debt += ((total_debt * 0.05) / 1000).ceil * 1000
     }
-    puts (total_debt / 1000).ceil * 1000
-
+    puts total_debt
   end
 end
